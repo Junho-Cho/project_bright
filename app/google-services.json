@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "527827399811",
+    "firebase_url": "https://bright-project-7fbc2.firebaseio.com",
+    "project_id": "bright-project-7fbc2",
+    "storage_bucket": "bright-project-7fbc2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:527827399811:android:1a1c4543fe27b51e",
+        "android_client_info": {
+          "package_name": "com.example.lgpc.project_bright"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "527827399811-hmh3tg7uvtafgosmpmeag7g6q6m7i16u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lgpc.project_bright",
+            "certificate_hash": "e4887f2793e30c0af741c1c5441f8484d3ac5a85"
+          }
+        },
+        {
+          "client_id": "527827399811-bfojrel5n5qq5tlpq30gnkuhcbt54kav.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWPOnunxfu1TeV5CWJ9qiLPLXtGs1LAVY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527827399811-bfojrel5n5qq5tlpq30gnkuhcbt54kav.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

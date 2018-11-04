@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="5dp"
+    android:layout_marginBottom="1dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:layout_marginStart="2dp"
+    android:layout_marginEnd="2dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            tools:context="com.example.lgpc.project_bright.BuildingActivity">
+
+            <TextView
+                android:id="@+id/floor_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintHorizontal_bias="0.1"
+                android:text="예제"/>
+
+            <ImageView
+                android:id="@+id/delete_floor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="25dp"
+                android:maxHeight="25dp"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintHorizontal_bias="0.9"
+                android:src="@drawable/delete_icon"/>
+
+        </android.support.constraint.ConstraintLayout>
+
+        <ImageView
+            android:id="@+id/floor_image"
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:maxWidth="200dp"
+            android:maxHeight="120dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_margin="10dp" />
+
+        <Button
+            android:id="@+id/picture_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="사진 편집"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
